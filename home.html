@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Básica de Site</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilos do Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #F285AD;
+        }
+
+        nav .logo {
+            color: #f6bddd;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Estilos do container de texto e imagem */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .content .text {
+            width: 50%;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        .content .image {
+            width: 50%;
+        }
+
+        .content .image img {
+            width: 100%;
+        }
+
+        /* Estilos do container de cards */
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .card {
+            width: 30%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card img {
+            width: 20%;
+            object-fit: contain;
+        }
+
+        .card h3 {
+            padding: 15px;
+        }
+
+        .card p {
+            padding: 0 15px 15px 15px;
+        }
+
+        /* Estilos do rodapé */
+        footer {
+            background-color: #F285AD;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo"><img src="https://seeklogo.com/images/V/victorias-secret-logo-845E48E95D-seeklogo.com.png" alt="LOGO" width="45px" height="50px"></div>
+    <ul>
+        <li><a href="https://www.mahyana.com.br/post/historia-victorias-secret#:~:text=Funda%C3%A7%C3%A3o%20da%20marca%20Victoria'
+        s%20Secret,suas%20esposas%20nas%20lojas%20tradicionais.">Criação</a></li>
+        <li><a href="https://www.victoriassecret.com/us/">Oficial</a></li>
+        <li><a href="https://www.victoriassecret.com/us/vs/accessories">Acessórios</a></li>
+        <li><a href="https://www.victoriassecret.com/us/vs/beauty?scroll=true">Beauty</a></li>
+        <li><a href="https://www.instagram.com/victoriassecret/">instagram</a></li>
+    </ul>
+</nav>
+
+<!-- Container com metade texto e metade imagem -->
+<div class="content">
+    <div class="text">
+        <h1>VICTORIA'S SECRETS</h1>
+        <p>A Victoria's Secrets é uma marca americana que aborda a sensualidade e beleza feminina.
+            Possui 46 anos de existência e lojas por todos os continentes, com variados produtos, desde roupa interior, perfumes,
+            roupa casual, malas e acessórios, fazendo ainda um grande investimento na publicidade.</p>
+    </div>
+    <div class="image">
+        <img src="https://www.thefastmode.com/media/k2/items/src/c439bd17f378d4a940a904841c17d3cc.jpg?t=20240115_065100" alt="Loja Victoria's Secrets">
+    </div>
+</div>
+
+<!-- Container com 3 cards -->
+<div class="cards">
+    <div class="card">
+        <img src="https://f.i.uol.com.br/fotografia/2024/10/15/1729038917670f0a4585185_1729038917_3x2_md.jpg" alt="Angels">
+        <h3>ANGELS</h3>
+        <p>As angels são as modelos de destaque da marca, sendo essas algumas das mais bem pagas do mundo. São responsáveis
+            por divulgar os produtos da empresa ao redor do mundo. </p>
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE9qjp1dhqfU8SMr23klv_Tx_psJPRZv1E8A&s" alt="Body splash">
+        <h3>BODY SPLASH</h3>
+        <p>Um body splash Victoria's Secrets é mais do que um simples produto, é uma experiência sensorial. Com notas que vão desde
+            florais até as mais frutadas e exóticas.</p>
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdXQK0TTROQfNyek4n1ZYTJWyV6tIWOHjpQg&s" alt="Historia">
+        <h3>História</h3>
+        <p>A Victoria's Secret foi fundada por Roy Raymond e sua esposa, Gaye Raymond, em 12 de junho de 1977. A primeira loja foi
+            aberta no Stanford Shopping Center em Palo Alto, Califórnia. Anos antes, Raymond ficou constrangido ao comprar
+            lingerie para sua esposa em uma loja de departamentos..</p>
+    </div>
+</div>
+
+<!-- Rodapé -->
+<footer>
+    <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
