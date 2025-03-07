@@ -1,12 +1,12 @@
 function limpaInput() {
     const confirmar = confirm("Deseja continuar?")
     if (confirmar){
-        document.getElementById("validationServer01"). value = ""
-        document.getElementById("validationServer02"). value = ""
-        document.getElementById("inputGroupPrepend3"). value = ""
-        document.getElementById("validationServer03"). value = ""
-        document.getElementById("validationServer04"). value = ""
-        document.getElementById("validationServer05"). value = ""
+        document.getElementById("exibirtext"). value = ""
+        document.getElementById("exibirtext1"). value = ""
+        document.getElementById("exibirtext2"). value = ""
+        document.getElementById("exibirtext3"). value = ""
+        document.getElementById("exibirtext4"). value = ""
+        document.getElementById("exibirtext5"). value = ""
     }
 }
 
